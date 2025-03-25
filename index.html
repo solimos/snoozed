@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snooze - Wake Up or Miss Out</title>
+    <style>
+        body {
+            background-color: orangered;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-placeholder {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .alarm {
+            font-size: 50px;
+        }
+
+        .random-text {
+            max-width: 400px;
+            margin: 10px auto;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-placeholder">
+            <img src="./snooze.png" alt="Snooze Image" />
+        </div>
+        <h1>Snooze - Wake Up or Miss Out</h1>
+        <div class="alarm">⏰💸</div>
+        <p class="random-text">Hit snooze, stay broke. Wake up, get rich. The choice is yours.</p>
+        <p class="random-text">Every second you sleep, someone else buys the dip.</p>
+        <p class="random-text">Early birds catch the gains. Snoozers catch regret.</p>
+    </div>
+</body>
+
+</html>
